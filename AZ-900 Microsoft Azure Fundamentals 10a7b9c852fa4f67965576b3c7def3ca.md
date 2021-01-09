@@ -2642,16 +2642,1144 @@ Group VMs and virtual networks into logical application groups and apply an appl
 
 ### Azure Security Center
 
+Consistent and Manageable Cloud Security is Difficult
+
+Functions
+
+Threat Alerts
+
+Ready for Hybrid architectures
+
+Each VM has an agent installed that sends data
+
+Azure Analyzes the data and alerts user
+
+Highlights
+
+Policy and compliance metrics
+
+A "secure score" to entice great security hygiene
+
+Integrate with other cloud providers
+
+Alerts for resources that are not secure
+
+Using Security Center
+
+Define Policies
+
+Set up policies for Azure to monitor resources from
+
+A policy is a set of rules used to evaluate a resource
+
+Use predefined policies or create custom ones
+
+Protect Resources
+
+Actively protect the resources through monitoring the policies and their outcomes
+
+Response
+
+Respond to any security alerts
+
+Investigate all of them and then go back to step 1 to define new policies to account for the alert
+
+[Get tips from Azure Security Center - Learn](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure/2a-azure-security-center?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
 ### Key Vault
+
+Attackers know where users keep their keys
+
+Azure Key Vault
+
+Secure Hardware
+
+The key vault hardware is secure too
+
+Not even MS can access the keys in it
+
+Application Isolation
+
+An application cannot pass secrets to other applications, nor can they access another application's secrets
+
+Global Scaling
+
+Scale globally like any other managed Azure service
+
+[Configure and manage secrets in Azure Key Vault - Learn](https://docs.microsoft.com/learn/modules/configure-and-manage-azure-key-vault?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
 
 ### Azure Information Protection
 
+Secure documents, emails, and data outside of the company network
+
+Classify Data
+
+Classify data according to how sensitive it is either using policies or manually
+
+Track Activities
+
+Track what is happening with shared data and revoke access if needed
+
+Share Data
+
+Safely share data as you can control who edits, views, prints, and forwards it
+
+Integration
+
+Controls for document access is integrated with common applications and tools, such as Microsoft office
+
+[Protect your shared documents - Learn](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure/6-azure-information-protection?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
 ### Advanced Threat Protection
+
+ATP
+
+Monitor Users
+
+Analyze user activity and information
+
+This includes any permissions and membership of groups
+
+Baseline Behavior
+
+ Record what a user's normal behavior and routine is
+
+Any activity outside this routine will be logged as suspicious
+
+Suggest Changes
+
+ATP will suggest changes to conform with security best practices to reduce risks
+
+Cyber-Attack Kill-Chain
+
+Reconnaissance
+
+If a user is searching for information about other users, device IP addresses and more, ATP will raise alerts
+
+Brute Force
+
+Any attempts to guess user credentials will be identified and flagged
+
+Increasing Privileges
+
+Any attempt by a user to gain more privileges will be flagged
+
+This could be through another user's login
+
+[Azure Advanced Threat Protection - Learn](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure/7-advanced-threat-protection?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
 
 ### Azure Sentinel
 
+Sentinel is a security information and event management tool
+
+Data Collection → Aggregation and Normalization → Analysis and Threat Detection → Things Happen → Tale Action
+
+Benefits and Features
+
+Behavioral Analytics
+
+Sentinel uses artificial intelligence to learn if any detected behavior is unusual
+
+AWS Integration
+
+Data from AWS services can be fed directly into Sentinel
+
+Allows for one approach for threat detection across multi-cloud infrastructure
+
+Cloud Scale
+
+Sentinel can take advantage of Azure cloud scaling and deliver more accurate results quickly
+
 ### Azure Dedicated Hosts
+
+Dedicated Hosts
+
+Hardware Control
+
+Full control of an entire physical server on Azure
+
+Users and User's Alone
+
+Physical layer isolation means user won't get any foreign VMs on dedicated host
+
+Maintenance
+
+Reduce impact on system by choosing when to install updates to the dedicated host
+
+Cloud Benefits
+
+Compliance
+
+Take advantage of the stringent Azure compliance in combination with managing one's own hardware
+
+Global Infrastructure
+
+Availability zones, fault isolation, high availability, and scale sets come as standard
+
+No optional extras
+
+OS of one's chhoice
+
+Choose Windows, Linux, or SQL server on a range of VM sizes
+
+Even save money by using one's own licenses
 
 ### Summary
 
+Security Summary
+
+Defense in Depth
+
+Need multiple layers of defense for infrastructure
+
+Azure has physical, identity, perimeter, network, compute, gateways and firewalls, and data as protection layers
+
+Securing Network Connectivity
+
+A firewall controls the data coming in and out of a network based on rules
+
+Azure protects against DDoS attacks with no downtime to you
+
+A network security group protects a subnet or virtual machine
+
+Azure Security Center
+
+Monitor security hygiene for VMs
+
+Define policies to protect one's resources better and respond to incidents
+
+Azure Key Vault
+
+A secure way to share access to applications and resources with third parties without every revealing any credentials
+
+Azure Information Protection
+
+Share files and data inside and outside of Azure and still maintain control over that data
+
+Control who views, edits, prints and more
+
+Azure Sentinel
+
+Collect, aggregate, analyze and present security issues automatically for one to take action
+
+Azure Dedicated Hosts
+
+One's own dedicated Azure hardware to install Windows, Linux, or SQL Server VMs on
+
+Gives control without losing cloud benefits like scaling, scale sets, fault isolation, and availability zones
+
+Advanced Threat Protection
+
+One secures and manages users of the org
+
+Monitor users' behaviors, create a baseline of this behavior and report on any anomalies from it
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Security Quiz: 80%
+
+![AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2011.png](AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2011.png)
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Security Quiz: 80%
+
 AZ-900 Microsoft Azure Fundamentals 2020 - Azure Security Quiz: 100%
+
+## Privacy, Compliance, and Trust
+
+### Governance
+
+Azure Policy
+
+Create Policies in Azure
+
+Governance validates that an organization can achieve its goals through effective and efficient use of IT
+
+Role-Based Access Control (RBAC)
+
+Define User Access
+
+Define specific user access to individual resources
+
+Minimum Access
+
+RBAC can enable minimum access necessary to resources
+
+Ensures only users with valid access can manage resources
+
+Target Specific Use Cases
+
+Be very explicit about uses and access
+
+Allow an application access to certain resources or allow a user to manage resources in a resource group
+
+Role Assignment
+
+Security Principal
+
+Object representing an entity such as a user or group which can access the resource
+
+Role Definition
+
+A collection of permissions such as read, write, and delete
+
+Scope
+
+The resources the access applies to
+
+Specify which role can access a resource or resource group
+
+Locks
+
+Assigning
+
+Assign a lock to a subscription, resource group, or resource
+
+Types
+
+A lock can be of two types
+
+Delete - one cannot delete the locked object
+
+Read-Only - one cannot make any changes to the locked object
+
+Locked means locked
+
+A lock needs to be removed before the locked actions can be performed again
+
+Azure Blueprints
+
+Templates for creating Azure resources
+
+Resource templates
+
+RBAC
+
+Policies
+
+Samples for common regulations
+
+Cloud Adoption Framework
+
+Collection of Documents
+
+Lots of resources to guide user through the cloud adoption process
+
+Guidance
+
+Help to define strategies for adoption, planning the move, "being ready" for the cloud, adoption reasons, governance practices, and managing a living, breathing cloud architecture
+
+Governance
+
+Key to the cloud adoption process is governance of the process
+
+Cloud Adoption Framework is a big step in that process
+
+Azure Advisor for Security Assistance
+
+Part of Azure Security Center
+
+Recap:
+
+Governance keeps one compliance and out of trouble
+
+Azure Policy ensures that policies applied to resources are compliant
+
+A policy is a set of rules to ensure compliant resources
+
+Role Based Access Control (RBAC) ensures user compliance through assigning a role to the user
+
+Role is a combination of security principal, role definition, and scope
+
+Locks make sure that subscriptions, resource groups, or resources are either not modified or not deleted
+
+Blueprints are templates for creating standard Azure environments
+
+Azure Advisor for Security Assistance is part of the Security Center in Azure
+
+[Define IT compliance with Azure Policy - Learn](https://docs.microsoft.com/learn/modules/intro-to-governance/2-azure-policy?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+[Define standard resources with Azure Blueprints - Learn](https://docs.microsoft.com/learn/modules/intro-to-governance/5-azure-blueprints?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+[Microsoft Cloud Adoption Framework for Azure - Cloud Adoption Framework](https://docs.microsoft.com/azure/cloud-adoption-framework/?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+### Azure Monitor
+
+Azure Monitor helps find resources that are not performing at 100%
+
+Telemetry is the collection of measurements of other data at remote points
+
+Azure Monitor
+
+Constant feed
+
+Most azure services feed telemetry data into Azure Monitor
+
+Even on-prem can send telemetry to Azure monitor
+
+Fully Managed
+
+Azure Monitor is centralized and fully managed
+
+Analyze all the data from one central place
+
+Query Language
+
+Full access to an interactive query language to learn about the telemetry data
+
+Machine Learning
+
+Predict and recognize problems faster with built-in machine learning
+
+Outcomes
+
+Maximize performance
+
+Maximize Availability
+
+identify issues
+
+### Azure Service Health
+
+Maintenance
+
+Azure needs to be updated and maintained like all other computing infrastructure
+
+Dashboard for Service Health
+
+Notifies about any planned and unplanned incidents
+
+Azure Service Health
+
+Dasboard
+
+Personalized dashboard to highlight service issues affecting your resources
+
+Custom Alerts
+
+Get notified of planned and non-planned outages
+
+Alerts are simple to set up and customize
+
+Real-Time Tracking
+
+Track any alerts and issues in real-time and get full reports once resolved
+
+Free Service
+
+Azure Service Health service is completely free
+
+### Compliance
+
+Industry Regulation
+
+General Data Protection Regulation
+
+Main objective is to protect individuals and processing of their data
+
+Gives control of personal data back to the individual, instead of the company owning it
+
+Companies are required to implement a lot of tools for consumers to control their data
+
+ISO Standard
+
+Many different ISO categories, such as compliance with quality and customer satisfaction
+
+Most common is ISO 9001:2008
+
+Also includes food safety and environmental management
+
+NIST
+
+National Institute for Standards and Technology
+
+Focuses purely on the tech industry
+
+Developed Primarily for US Federal agenceies
+
+Compliance with NIST means compliance with multiple Federal US regulations
+
+Azure Compliance Manager
+
+Azure knows about compliance and resources, and it can give you recommendations through the compliance manager
+
+Recommendations
+
+Get recommendations for ensuring compliance with GDPR, ISO, NIST, and others
+
+Tasks
+
+Assign compliance tasks to team members and track progress
+
+Compliance Score
+
+Chase a perfect score to be 100% compliant
+
+Secure Storage
+
+Upload documents to prove compliance and store them securely
+
+Reports
+
+Get reports of Compliance data to provide to managers and auditors
+
+Azure Government Cloud
+
+Dedicated Regions
+
+If US govt body or contract for one, access is available
+
+Government Cloud consists of dedicated separate datacenters
+
+Exclusivity
+
+Guaranteed only screen personnel from US federal, state, and local government have access
+
+Compliance
+
+Ensure compliance with required US government agencies, and level 5 DoD approval
+
+Azure Benefits
+
+Get standard Azure cloud benefits:
+
+High availability, scalability, and managed resources
+
+China Region
+
+Located in China
+
+Azure datacenter is physically within China and has no connection outside of China, including other Azure regions
+
+Data is Kept in China
+
+All customer data is kept inside Chinese borders
+
+Certain global Azure services won't work fully
+
+Compliant
+
+Ensured compliance with Chinese regulations at all times
+
+Recap:
+
+Compliance is not negotiable
+
+GDPR, ISO, and NIST are regulations and standards to ensure compliance with applicable legislation
+
+Azure Compliance Manager provides recommendations, tasks to assign team members, a compliance score, secure document storage, and reports
+
+Azure Government Cloud provides dedicated datacenters to US Government bodies.
+
+Compliant with US federal, state, and local requirements
+
+Azure China region contains all data and datacenters within China
+
+Complies with all applicable Chinese regulations
+
+[Compliance terms and requirements - Learn](https://docs.microsoft.com/learn/modules/principles-cloud-computing/3a-compliance?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+### Privacy
+
+Azure Privacy
+
+Azure Information Protection
+
+Classify, label, and protect data based on data sensitivity 
+
+Azure Policy
+
+Define and enforce rules to ensure privacy and external regulations
+
+Guides
+
+Use guides to respond and comply with GDPR privacy requests
+
+Compliance Manager
+
+Make sure one is following privacy guidelines
+
+Microsoft Privacy Statement
+
+### Trust
+
+Trust Center
+
+Learn about Microsoft's effort on security, privacy, GDPR, data location, compliance and more
+
+Service Trust Portal
+
+Review all the independent reports and audits performed on Microsoft's products and services
+
+Azure complies with more standards than any other cloud provider
+
+[Explore your service compliance with Compliance Manager - Learn](https://docs.microsoft.com/learn/modules/intro-to-governance/6-azure-compliance?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+### Summary
+
+Privacy, Compliance, and Trust
+
+Governance
+
+Azure Policy, Role-Based Access Control (RBAC), Locks and Azure blueprints
+
+Azure Monitor
+
+Collect telemetry data from resources, which one can analyze
+
+Maximize performance and availability and identify issues
+
+Azure Service Health
+
+Notifies one about any planned and unplanned incidents on the Azure platform
+
+Compliance
+
+Comply with GDPR, adhere to ISO and NIST standards
+
+Use Azure Compliance Manager to manage compliance
+
+Government Cloud and China region
+
+Privacy
+
+Core part of Azure and its products
+
+Azure Information Protection, Azure Poolicy, and the GDPR guide are all privacy tools
+
+Trust
+
+Trust Center is where one can find out what Microsoft does to keep user's trust
+
+Service Trust Poral is where one can find audit reports and certificates awarded to Azure
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Privacy, Compliance, and Trust Quiz: 88%
+
+![AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2012.png](AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2012.png)
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Privacy, Compliance, and Trust Quiz: 100%
+
+## Pricing
+
+Pricing Structure
+
+Azure
+
+Don't own hardware - pay for access to it
+
+Pay for number of hours using resource
+
+Pay more for more resources
+
+Service payment is tiered
+
+Location can affect price
+
+### Subscriptions
+
+Billing and Pricing
+
+All resources belong to a subscription
+
+Subscriptions
+
+Multiple Subscriptions
+
+Any Azure account can have multiple subscriptions
+
+Useful for organizing who pays for what
+
+Billing Admin
+
+One or more users can be a billing admin, which manages anything to do with billing and invoicing on Azure
+
+Ensures separation of responsibility
+
+Billing Cycle
+
+A billing cycle on Azure is either 30 or 60 days
+
+Offer Types
+
+Offer type is the type of subscription
+
+There are many different ones at any one time
+
+Management Groups
+
+Group Subscriptions
+
+Take action across subscriptions in bulk
+
+Very useful in large orgs with many subscriptions
+
+Organize
+
+Manage access, policies, and compliance in bulk
+
+Ex: have a management group per country or department
+
+Billing Logic
+
+Maintain billing associated with the right budgets
+
+Nest management groups to indicate hierarchy and relationship
+
+[Understand Azure billing - Learn](https://docs.microsoft.com/learn/modules/create-an-azure-account/4-multiple-subscriptions?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+### Cost Management
+
+Buying Azure Services
+
+You can't use Azure without buying products and services
+
+Free Accounts
+
+Benefits
+
+Many Free Services
+
+VMs, databases, storage, and more
+
+Always Free
+
+Some services are always free for everyone, some totally free, some partially free up to a threshold
+
+Azure Cost Management
+
+Azure Portal
+
+Access the Azure Cost Management tool from within the Azure Portal
+
+Get a detailed view of current and projected costs
+
+Free and included with all Azure subscriptions
+
+Reports and Recommendations
+
+Get detailed spending reports and recommendations on how to save on costs and analyze them
+
+Optimization
+
+Optimize current resources to save money and monitor any AWS charges too
+
+Spot VMs
+
+Spot VM Usage
+
+Save up to 90% of the price
+
+Evict at any time
+
+Recap
+
+Save money by using unused capacity
+
+VM can be evicted at any time
+
+Use for interruptible non-critical workloads
+
+Use with Azure scale sets
+
+Set a max price for the Spot VM
+
+[Azure Free Account FAQ | Microsoft Azure](https://azure.microsoft.com/en-au/free/free-account-faq/)
+
+[Azure Fundamentals part 6: Describe Azure cost management and service level agreements - Learn](https://docs.microsoft.com/learn/paths/az-900-describe-azure-cost-management-service-level-agreements/?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+### Pricing Factors
+
+Influencing on Pricing
+
+Resource Size
+
+Different sizes of resources will have different pricing
+
+More powerful VM costs more
+
+Resource Type
+
+Big difference in amount of hardware resources needed for various types of resources, as well as complexity
+
+Location
+
+Different Azure locations have different prices for services
+
+Exchange rates, labor costs, and more have an influence
+
+Bandwidth
+
+Bandwidth one's services are using incurs cost as well
+
+Zones and Bandwidth
+
+![AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2013.png](AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2013.png)
+
+Pricing Calculator
+
+Choose from all available Azure services
+
+Select resource properties
+
+Monthly cost estimate
+
+Export estimate for further analysis and use
+
+Total Cost of Ownership Calculator
+
+Get an estimate of the total savings one could get for moving on-prem resources to Azure
+
+Estimate Total savings over a period of time by using Azure
+
+Comprehensive reports to share with stakeholders
+
+### Best Practices
+
+Spending Limits
+
+Default Limit
+
+Some azure accounts with monthly credits to use will have default spending limits
+
+No Increase
+
+When credits are used, either remote limit entirely or leave it in effect
+
+No spending limit
+
+Pay as you go accounts have no spending limit functionality
+
+Quotas
+
+Property Limit
+
+A quota is a limit on a certain property of an Azure Service
+
+Ensure Service Level
+
+Quotas are necessary to ensure Azure can maintain their high service level
+
+Quota Change
+
+If one needs to increase quota for a particular service, ask Microsoft to increase
+
+Tags
+
+Non Functional labels
+
+Attack to resource or resource group
+
+Use as many tags as wanted/needed
+
+Best Practices
+
+Identify Roles
+
+Protect sensitive data by defining which roles can access a resource
+
+Related Resources
+
+To make bulk processing and updating easier, define which resources are related
+
+Filter
+
+Filter resources per project, customer or for reporting purposes
+
+Unambiguous
+
+Create a list for tags used that includes:
+
+Description, tag name, and potential values
+
+Pay-as-you-Go
+
+One of the most expensive options
+
+Reserved Instances
+
+Can save a lot
+
+Reserve VM for a period
+
+discount
+
+Not all Azure services can be reserved
+
+Advisor
+
+Gives best practices and advice in general through recommendations
+
+### Summary
+
+Subscriptions
+
+Every resource belongs to a subscription
+
+Azure Account can have multiple subscriptions
+
+Billing Admins control Costs
+
+Management groups help keep track of many subscriptions
+
+Cost Management
+
+Use free accounts and Azure Cost Management to keep costs as low as possible and optimize resources
+
+Pricing Factors
+
+Resource size, resource type, location of the service and bandwidth used all affect the price of a service
+
+Best Practices
+
+Use spending limits, quotas for services, tags to order resources and reserved instances to manage costs and get the best price
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Pricing Quiz: 80%
+
+![AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2014.png](AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2014.png)
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Pricing Quiz: 100%
+
+## Support
+
+[Azure support options - Get help with your Azure subscription - Learn](https://docs.microsoft.com/learn/modules/create-an-azure-account/5-support-options?WT.mc_id=ACloudGuru_Learn_multiple-learn-wwl)
+
+### Plans
+
+Overview
+
+5 different Levels: (Cost and Support increases as list goes)
+
+Basic
+
+Developer
+
+Business Hour email support
+
+Unlimited technical support cases
+
+Guidance Troubleshooting
+
+Response time < 8 hours
+
+General Guidance for support
+
+Standard
+
+24/7 Email/Phone support
+
+Unlimited technical support cases
+
+Guidance Troubleshooting
+
+Response time c < 8 hours
+
+Response time b < 4 hours
+
+Response time a < 1 hours
+
+General Guidance for support
+
+Professional Direct
+
+24/7 Email/Phone support
+
+Unlimited technical support cases
+
+Guidance Troubleshooting
+
+Response time c < 4 hours
+
+Response time b < 2 hours
+
+Response time a < 1 hours
+
+Architecture Guidance for support
+
+On boarding reviews
+
+Webinar Training
+
+Premier
+
+24/7 Email/Phone support
+
+Unlimited technical support cases
+
+Guidance Troubleshooting
+
+Response time c < 4 hours
+
+Response time b < 2 hours
+
+Response time a < 1 hours
+
+Initial response time for premier package is < 15 minutes - Azure rapid response
+
+Customer specific Guidance for support
+
+Tech reviews, reporting, and a technical account manager
+
+On-demand training
+
+Inclusions - All Support Plans
+
+24/7 Access
+
+Around the clock access to billing and subscription support
+
+Online Self-Help
+
+Azure documentation and white papers
+
+Forums
+
+Connect with other Azure users to ask and answer questions
+
+Azure Advisor
+
+Best practice recommendations for multiple Azure services
+
+Service Health
+
+Access to current issues and future planned maintenance on the Azure platform
+
+### Tickets
+
+Definition
+
+Ticket is a support enquiry
+
+Unique ID
+
+Single reference to request
+
+Submit a ticket through the Azure Portal
+
+Choose one of four support ticket types
+
+Fill in details about issue
+
+Request is processed according to support plan
+
+### Channels
+
+Support Channels
+
+Azure Documentation
+
+Collection of 1000+ product and service articles
+
+Forums
+
+Suits everyone from beginners to experts
+
+Social Media
+
+### Knowledge Center
+
+FAQ for common questions
+
+No New Questions
+
+Cannot add new questions or add to an existing question
+
+Search
+
+Search by category, product, and free text
+
+Complements other channels
+
+### Service Level Agreements
+
+Properties
+
+Confidence
+
+Critical top ensure confidence in the uptime and reliability of services
+
+Contract
+
+Contract between user and Azure stating MS's commitment for uptime and connectivity
+
+Multiple SLAs
+
+Many SLAs in Azure
+
+Generally one SLA per product
+
+Automatically use the SLA for the service one uses
+
+Complex
+
+SLAs can have various levels depending on the number and variety of services, which region is used, and much more
+
+Mandatory
+
+If one has an Azure account, the various SLAs apply.
+
+There are no SLAs for free products and services
+
+### Service Lifecycle
+
+Gathering Custom Data
+
+Customers can provide valuable feedback
+
+Stages
+
+Preview
+
+Private
+
+Only available to specific customers invited by he product team behind the service
+
+Public
+
+Available to all Azure customers
+
+Enable preview features in the Azure Portal
+
+General Availability
+
+Available to all Azure customers as a normal service, including SLA
+
+Services become generally available when they are ready
+
+Can be gradual rollout to some regions first
+
+Watch for previews, new features, and updates with the update feed by Azure
+
+### Summary
+
+Support
+
+Plans
+
+Basic, developer, standard, professional direct, and premier tiers
+
+More pay more benefits and faster response
+
+Tickets
+
+Unique reference ID for support issue
+
+Channels
+
+Azure documentation, forums, and social media for help and support
+
+Knowledge Center
+
+Collection of most common questions
+
+SLA
+
+Contract between user and Azure documenting Microsoft's commitment for uptime and connectivity
+
+Service Lifecycle
+
+Azure services can be in private or public preview before they are generally available
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Support Quiz: 60%
+
+![AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2015.png](AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2015.png)
+
+![AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2016.png](AZ-900%20Microsoft%20Azure%20Fundamentals%2010a7b9c852fa4f67965576b3c7def3ca/Untitled%2016.png)
+
+AZ-900 Microsoft Azure Fundamentals 2020 - Azure Support Quiz: 100S%
