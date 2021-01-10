@@ -13,5 +13,4 @@ Microsoft Learn Course for AZ-900
 
 - https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/
 
-Exam result: have not taken
-
+Exam result: PASS
